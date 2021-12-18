@@ -44,7 +44,7 @@ You can also deploy the solution at anytime using the Azure CLI.
 1. Clone the repo and navigate to the folder
 2. Run the following CLI command (with appropiate values for $variables)
   ```cli
-  az group create -n $resourceGroup -l canadacentral
+  az group create -n $resourceGroup -l westeurope
   az deployment group create -g $resourceGroup -f ./deploy/main.bicep \
     -p \
       minReplicas=0 \
